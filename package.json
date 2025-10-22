@@ -2,14 +2,19 @@
   "name": "backend",
   "version": "1.0.0",
   "description": "a backend for my project",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "dev": "nodemon src/index.js"
   },
   "keywords": [
     "javascript",
     "backend"
   ],
   "author": "Sanvi Bongale",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.10",
+    "prettier": "3.6.2"
+  }
 }
